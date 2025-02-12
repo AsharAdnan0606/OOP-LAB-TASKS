@@ -20,7 +20,9 @@ class Matrix{
 };
 
 int main( int argc , char *argv[]){
-	
+	/*Error checking for rows and columns to be equivalent is not implemented
+	  considering user willl enter correct input*/
+	  
 	int rows , cols , count=3 ;
 	rows = stoi(argv[1]);
 	cols = stoi(argv[2]);
